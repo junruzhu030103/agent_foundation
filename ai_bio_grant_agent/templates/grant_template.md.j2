@@ -1,0 +1,19 @@
+# {{ topic }}
+
+## 一、立项依据
+![立项依据图]({{ fig1_path }})
+
+{{ rationale_text }}
+
+## 二、研究内容与研究目标
+{{ objectives_text }}
+
+## 三、具体研究方案
+![研究方案图]({{ fig2_path }})
+
+{{ plan_text }}
+
+## 参考文献
+{% for r in references %}
+{{ loop.index }}. {{ r }}
+{% endfor %}
