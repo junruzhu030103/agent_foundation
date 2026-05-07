@@ -31,5 +31,5 @@ Output file:
 
 ## Notes
 
-- `nanobanana` API endpoint in this scaffold is a placeholder; replace with real endpoint contract.
+- Figure generation uses Qwen image model (`qwen-image-2.0`) via DashScope compatible API.
 - PubMed uses NCBI E-utilities (`esearch` + `efetch`).
